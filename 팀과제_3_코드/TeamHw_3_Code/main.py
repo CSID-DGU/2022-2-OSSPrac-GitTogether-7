@@ -14,6 +14,7 @@ def result():
       
       # 성별
       result['Gender'] = request.form.get('Gender')
+      
       # 프로그래밍 언어 -> hint) ','.join(list명)을 사용하면 list 안에 있는 항목들이 ','로 나누어져 출력됨.
       result['Programing Languague'] = " "
       lst = ["Python", "Java", "HTML", "C++"]
