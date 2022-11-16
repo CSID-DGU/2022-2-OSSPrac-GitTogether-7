@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  hw5_1:
+    container_name: "hw5_container_1"
+    image: kimminseok/gittogether:2.0
+    build: .
+    ports:
+    - "80:80"
